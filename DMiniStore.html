@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DA's Mini Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>DA's Mini Store</h1>
+
+    <div class="titles">
+        <div class="item">ITEM
+            <br><br>
+            <label for="spinach">Spinach</label>
+
+            <br><br>
+            <label for="asparagus">Asparagus</label>
+
+            <br><br>
+            <label for="broccoli">Broccoli</label>
+        </div>
+        <div class="price">PRICE
+            <br><br>
+            <label for="price" id="price1">150</label>
+
+            <br><br>
+            <label for="price" id="price2">95</label>
+
+            <br><br>
+            <label for="price" id="price3">120</label>
+        </div>
+        <div class="quantity">QUANTITY
+            <br><br>
+            <input type="text" id="quantity1" class="input-box" oninput="calculateTotalPrice()">
+
+            <br><br>
+            <input type="text" id="quantity2" class="input-box" oninput="calculateTotalPrice()">
+
+            <br><br>
+            <input type="text" id="quantity3" class="input-box" oninput="calculateTotalPrice()">
+
+            <br><br>
+            <label for="totalAmount">Total Amount:</label>
+
+            <br><br>
+            <label for="discount">Discount (%):</label>
+
+            <br><br>
+            <label for="less">Less:</label>
+
+            <br><br>
+            <label for="due">Amount Due:</label>
+
+            <br><br>
+            <label for="cash">Cash:</label>
+
+            <br><br>
+            <label for="change">Change:</label>
+        </div>
+        
+        <div class="tprice">TOTAL PRICE
+            <br><br>
+            <input type="text" id="tprice1" class="input-box" placeholder="0" readonly>
+
+            <br><br>
+            <input type="text" id="tprice2" class="input-box" placeholder="0" readonly>
+
+            <br><br>
+            <input type="text" id="tprice3" class="input-box" placeholder="0" readonly>
+
+            <br><br>
+            <input type="text" id="tamount" class="input-box" placeholder="0" readonly>
+
+            <br><br>
+            <input type="text" id="discount" class="input-box" oninput="calculateTotalPrice()">
+
+            <br><br>
+            <input type="text" id="less" class="input-box" placeholder="0" readonly>
+
+            <br><br>
+            <input type="text" id="due" class="input-box" placeholder="0" readonly>
+
+            <br><br>
+            <input type="text" id="cash" class="input-box" oninput="calculateTotalPrice()">
+
+            <br><br>
+            <input type="text" id="change" class="input-box" placeholder="0" readonly>
+        </div>
+    </div>
+</body>
+</html>

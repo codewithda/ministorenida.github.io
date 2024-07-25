@@ -1,0 +1,49 @@
+body {
+    background-image: repeating-conic-gradient(#ae71a9 0% 25%, #e0cbec 0% 50%);
+background-position: 0 0, 49px 49px;
+background-size: 98px 98px;
+background-color: #e0cbec;
+}
+
+.titles{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+    font-family: verdana, arial;
+    font-size: 40px;
+    background-color: #923c8b;
+    color: white;
+}
+
+label{
+    color: black;
+    font-size: 15px;
+    font-family: verdana, arial;
+    font-weight: bold;
+}
+  
+.item, .price, .quantity, .tprice{
+    color: black;
+    font-size: 20px;
+    font-family: verdana, arial;
+    font-weight: bolder;
+}
+
+.input-box {
+    width: 100px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #923c8b; 
+}
